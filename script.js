@@ -52,4 +52,5 @@ const getData = async () => {
   }
 };
 
+getData();
 searchBtn.addEventListener("click", getSearchedGenreData(searchInput.value));
